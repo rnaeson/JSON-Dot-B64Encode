@@ -1,4 +1,4 @@
-# BookTracker-DataFetcher
+# JSON.B64Encode
 
 ## Description:
 This repository contains a python script that can be used to base 64 encode a JSON file with just one simple command.
