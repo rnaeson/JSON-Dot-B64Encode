@@ -78,7 +78,7 @@ if __name__ == "__main__":
                     # Base 64 Encode the file contents
                     jsonB64 = base64.b64encode(json.dumps(jsonContent).encode('utf-8'))
                     # Print the Base64 Encoded Value
-                    print(jsonB64)
+                    print(f"{jsonB64.decode()}\n")
                 # If the JSON wasn't valid then send error
                 else:
                     print(f"\nERROR: File {arg} contains invalid JSON. Please check the file and try again!... {ERR}\n")
